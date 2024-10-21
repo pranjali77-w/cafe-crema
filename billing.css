@@ -1,0 +1,38 @@
+body{
+ background: url('hero.jpeg') no-repeat center center/cover;
+}  
+.card-header{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    }
+/* Custom styles for icons */
+        .upi-icons {
+            display: flex;
+            gap: 10px;
+            margin: 10px 0;
+        }
+
+        .upi-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .upi-icon:hover {
+            transform: scale(1.1);
+            background-color: #e9ecef;
+        }
+
+        #thankYouMessage {
+            margin-top: 20px;
+            font-weight: bold;
+            text-align: center;
+        }

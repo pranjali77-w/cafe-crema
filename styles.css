@@ -1,0 +1,103 @@
+/* Global Settings */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f6f4f2;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #4b382a; /* Dark coffee color */
+    outline-color: #f6f4f2;
+    border-radius: 2%;
+  }
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #f6f4f2;
+  }
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    padding: 10px 15px;
+    color: #f6f4f2;
+  }
+  .searchInput{
+    size: 2px;
+  }
+  
+  
+  /* Hero Section */
+  .hero-section {
+    background-color: #4b382a; /* Dark coffee color */
+  }
+  .hero-section h1 {
+    font-size: 50px;
+    color: #ffffff;
+  }
+  .hero-section p {
+    font-size: 18px;
+    color: #ccc;
+  }
+  .hero-section img {
+    max-width: 80%;
+  }
+  .hero-section .btnlink{
+    color: hsl(0, 0%, 99%);
+  }
+  /* Coffee Heaven */
+  .coffee-heaven-section {
+    background-color: hsl(30, 28%, 57%);
+  }
+  .coffee-heaven-section h2 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .coffee-heaven-section p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Best Selling Section */
+  .best-selling-section {
+    background-color: #e3c3a6;
+  }
+  .best-selling-section h3 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .best-selling-section .card {
+    background-color: transparent;
+    border: none;
+  }
+  .best-selling-section .card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Reviews Section */
+  .reviews-section {
+    background-color: hsl(29, 33%, 50%);
+  }
+  .reviews-section p {
+    font-size: 16px;
+    color: #555;
+  }
+  .reviews-section img {
+    border: 3px solid #ccc;
+  }
+  .reviews-section h5 {
+    font-size: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #4b382a; /* Dark coffee color for footer as well */
+    color: #fff;
+  }
+  footer h5 {
+    font-size: 20px;
+  }
+  footer p {
+    font-size: 16px;
+  }
+  

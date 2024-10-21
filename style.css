@@ -1,0 +1,57 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    background-image: url('bg1.jpg');
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+.btn-success {
+    background-color: hwb(14 25% 46%);
+    border-color: #705732;
+}
+
+.btn-success:hover {
+    background-color: hsl(22, 41%, 40%);
+}
+
+#forgotPasswordLink {
+    text-decoration: none;
+    color: #007bff;
+}
+
+#forgotPasswordLink:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.text-danger {
+    font-size: 14px;
+}
+
+form {
+    margin-top: 20px;
+}

@@ -1,0 +1,61 @@
+     body {
+            background-color: #f8f9fa; /* Light background color */
+        }
+        /* Navbar */
+.navbar {
+    background-color: #4b382a; /* Dark coffee color */
+}
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #fff; /* White text for navbar items */
+}
+.navbar-nav .nav-link {
+    font-size: 18px;
+    color: #f8f9fa; /* Light color for better visibility */
+    padding: 10px 15px;
+}
+.navbar-nav .nav-link:hover {
+    color: #ffd700; /* Gold color on hover for effect */
+}
+
+        .blog-post, .review-card {
+            border: 1px solid #ddd; /* Light border */
+            border-radius: 10px; /* Rounded corners */
+            background: white; /* White background for cards */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            transition: transform 0.3s; /* Animation on hover */
+        }
+        .blog-post:hover, .review-card:hover {
+            transform: scale(1.02); /* Scale effect on hover */
+        }
+        .profile-img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%; /* Round images */
+            border: 2px solid #343a40; /* Border around images */
+        }
+        .blog-img {
+            border-radius: 10px; /* Rounded corners for images */
+            max-height: 200px; /* Limit height */
+            object-fit: cover; /* Maintain aspect ratio */
+        }
+        .star-rating {
+            color: gold; /* Gold stars for ratings */
+        }
+        .thank-you {
+            font-weight: bold;
+            margin-top: 30px;
+            text-align: center;
+            font-size: 1.2em; /* Larger font size */
+            color: #28a745; /* Green color for thank you message */
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+        .form-label {
+            font-weight: bold; /* Bold labels for form */
+        }
